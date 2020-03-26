@@ -1,0 +1,28 @@
+{
+    "name": "xuanzhu/swo-frame",
+    "type": "library",
+    "authors": [
+        {
+            "name": "echo",
+            "email": "598642153@qq.com"
+        }
+    ],
+    "require": {
+        "xuanzhu/swo": "dev-master"
+    },
+    "repositories": {
+        "xuanzhu": {
+            "type": "path",
+            "url": "../swo"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Database\\": "database/"
+        },
+        "files": [
+            "vendor/xuanzhu/swo/src/Supper/Helper.php"
+        ]
+    }
+}
